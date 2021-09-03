@@ -41,7 +41,7 @@ namespace CalcIncome
             nameWorker = Console.ReadLine();
             Console.Write("Level: ");
             level = Enum.Parse<WorkerLevel>(Console.ReadLine());
-            Console.Write("Base salary: R$ ");
+            Console.Write("Base salary: $ ");
             baseSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                         
             //Instanciação - Dados do trabalhador//
